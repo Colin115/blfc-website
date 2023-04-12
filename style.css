@@ -1,0 +1,163 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	color: #a6a6a6;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+header, footer {
+	background-color: #5c2d91;
+	padding: 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+p {
+    max-width: 600px;
+}
+
+section {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border-top: 1px solid #ccc;
+    padding: 8px
+  }
+  
+
+section h2 {
+	color: #5c2d91;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+}
+
+
+/*gallery*/
+
+.gallery-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 98vw;
+  }
+  
+  .gallery-slides {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: slide 23s linear infinite;
+    
+  }
+  
+  .gallery-slides img {
+    flex: 0 0 auto;
+    max-height: 70vh;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+/* species section */
+
+.species {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.species > * {
+    flex-basis: 30%;
+  }
+
+.fish {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    background-color: lavender;
+    padding: 16px;
+    border-radius: 25px;
+    gap: 10px;
+    
+} 
+
+.type {
+    max-height: 30vh;
+}
+
+
+/* memebrs seciton */
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people > * {
+    flex-basis: 30%;
+  }
+
+#people div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A698B5;
+    color: black;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 10vw;
+    min-width: 175px;
+    margin: 10px 10px;
+    
+  }
+
+#people img {
+    max-height: 20vh;
+}
+  
+  
+  
+  
+  
+  
+  
+  
