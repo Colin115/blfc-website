@@ -61,8 +61,24 @@ section h2 {
 
 footer {
 	padding: 10px;
-	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
+
+footer a {
+  color: #a6a6a6;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  max-height: 35px;
+}
+
 
 
 /*gallery*/
